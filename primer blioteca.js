@@ -1,0 +1,1 @@
+var operation=function(num1,num2,simbol){if (simbol=="*"){return num1*num2;}else{if(simbol=="+"){return num1+num2;}else{if (simbol=="-"){return num1-num2;}else{return num1/num2;}}}};var resultado=0;var fraction=function(x,n,d){resultado=x/d*n;};
